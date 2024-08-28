@@ -1,68 +1,20 @@
-@charset "UTF-8";
-
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
 body
 {
-    background-image: linear-gradient(90deg, blue, white );
-    color: black;
-    font-size: 12pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: none;
+    background-color: var(--cor-de-fundo);
 }
-h1
-{   
-    background-image: linear-gradient(270deg, white, blue );
-    background-color: aqua;
-    color: black;
-    font-size: 30pt;
-    font-family:Arial;
-    text-align: center;
-}
-p
+<body>
+    <h1>“Os principais comandos par se criar um site”.</h1>
+</body><body>
 {
-    color: black;
-    font-size: 16pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center; 
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    }* {
+    margin: 0;
+    padding: 0;
 }
-h2
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-}
-li
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-}
-a
-{
-    color: blue;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-    text-decoration: none;
-} 
-table
-{
-    background-color: white;
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;   
-    table, td, th, tfoot 
-        {
-         border: 3px solid;
-        }  
-    td {color: blue;}
-    text-align: center;  
-    margin: auto;    
-}
-table.table tr
-{
-    cursor.pointer;
-}
-
